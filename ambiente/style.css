@@ -1,0 +1,151 @@
+.container{
+    height: 500px;
+    position: relative;
+}
+
+
+#immagine1{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 10px 10px 8px #888888;
+    background-size: cover;
+    float: left;
+
+}
+#immagine1:hover{
+    animation: Ingrandimento 1s forwards;
+    cursor: pointer;
+}
+#immagine1:hover::after{
+    animation: Riduci 1s;
+}
+
+@keyframes Ingrandimento{
+
+    from{
+        width: 400px;
+        height: 300px;
+    }
+
+    to{
+        width: 450px;
+        height: 350px;
+    }
+
+}
+
+@keyframes Riduci{
+
+    from{
+        width: 450px;
+        height: 350px;
+    }
+
+    to{
+        width: 400px;
+        height: 300px;
+    }
+
+  
+}
+#immagine2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 10px 10px 8px #888888;
+    background-size: cover;
+    float: left;
+
+}
+#immagine2:hover{
+    animation: Ingrandimento 1s forwards;
+    cursor: pointer;
+}
+#immagine2:hover::after{
+    animation: Riduci 1s;
+}
+
+@keyframes Ingrandimento{
+
+    from{
+        width: 400px;
+        height: 300px;
+    }
+
+    to{
+        width: 425px;
+        height: 325px;
+    }
+
+}
+
+@keyframes Riduci{
+
+    from{
+        width: 425px;
+        height: 325px;
+    }
+
+    to{
+        width: 400px;
+        height: 300px;
+    }
+}
+#immagine3{
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 10px 10px 8px #888888;
+    background-size: cover;
+    float: left;
+
+}
+#immagine3:hover{
+    animation: Ingrandimento 1s forwards;
+    cursor: pointer;
+}
+#immagine3:hover::after{
+    animation: Riduci 1s;
+}
+
+@keyframes Ingrandimento{
+
+    from{
+        width: 400px;
+        height: 300px;
+    }
+
+    to{
+        width: 425px;
+        height: 325px;
+    }
+
+}
+
+@keyframes Riduci{
+
+    from{
+        width: 425px;
+        height: 325px;
+    }
+
+    to{
+        width: 400px;
+        height: 300px;
+    }
+}
+#bottone{
+    margin-top: 30%;
+    
+    float: right;
+}
